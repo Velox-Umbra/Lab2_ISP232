@@ -21,21 +21,66 @@ fun main() {
 //    repeat (times = 5) {
 //        println(1)
 //    }
-    println("Введите порядковый номер месяца (1-12): ")
-    val index = readln().toInt()
-    var month = ""
-    if (index == 1) month = "Январь"
-    else if (index == 2) month = "Февраль"
-    else if (index == 3) month = "Март"
-    else if (index == 4) month = "Апрель"
-    else if (index == 5) month = "Май"
-    else if (index == 6) month = "Июнь"
-    else if (index == 7) month = "Июль"
-    else if (index == 8) month = "Август"
-    else if (index == 9) month = "Сентябрь"
-    else if (index == 10) month = "Октябрь"
-    else if (index == 11) month = "Ноябрь"
-    else if (index == 12) month = "Декабрь"
-    if (index in 1..12){
-        println("Вы ввели индекс $index соответствующий месяцу $month")}
+//    println("Введите порядковый номер месяца (1-12): ")
+//    val index = readln().toInt()
+//    var month = when (index) {
+//        1 -> "Январь"
+//        2 -> "Февраль"
+//        3 -> "Март"
+//        4 -> "Апрель"
+//        5 -> "Май"
+//        6 -> "Июнь"
+//        7 -> "Июль"
+//        8 -> "Август"
+//        9 -> "Сентябрь"
+//        10 -> "Октябрь"
+//        11 -> "Ноябрь"
+//        12 -> "Декабрь"
+//        else -> "Неправильно"
+//    }
+//    if (index in 1..12){
+//        println("Вы ввели индекс $index соответствующий месяцу $month")}
+
+//    print("Введите ваш уровень - ")
+//    val level = readln().toInt()
+//    print("Есть ли у вас VIP статус (true/false) - ")
+//    val VIP = readln().toBoolean()
+//    if (level >= 30 && VIP == true || level >= 50) {
+//        print("Щит активен")
+//
+//    }
+//    else print("Щит не активен")
+
+//    print("Введите ваш уровень - ")
+//    val level = readln().toInt()
+//    if (level >= 50) print("Легенда! Вы получаете +100 hp")
+//    else if (level >= 50) print("Опытный! Вы получаете +50 hp")
+//    else print("Новичок! Вы получаете +10 hp")
+
+//    print("Введите ваш возраст - ")
+//    val year = readln().toInt()
+//    if (year >= 18) print("Вы взролый!")
+//    else if (year < 12) print("Вы ребенок!")
+//    else print("Вы подросток!")
+
+//    print("Введите число от 1 до 100")
+//    val chislo = readln().toInt()
+//    if (chislo in 10..50) print("Число входит")
+//    else print("Число не входит")
+
+//    print("Введите символ")
+//    val char1 = readln()
+//    if (char1 in "1".."9") print("Это цифра")
+//    else if (char1 in "a".."z") print("Это буква")
+//    else if (char1 == " ") print("Это цифра")
+//    else print("Это спецсимвол")
+
+//    var i = 1
+//    repeat (10) {
+//        println("5 * $i = ${i * 5}")
+//        i++
+//    }
+
+    val moves = listOf("Призрачный гонщик", "Терминатор", "Пираты карибского моря", "Майнкрафт", "Законопослушный гражданин")
+    for ()
 }
